@@ -9,12 +9,12 @@ const Progress = () => {
 
   if (activeTab && formData.number_of_tickets > 0) {
     progress = 33;
-    step = 1;
+    step = 2;
   }
 
-  if (formData.name && formData.email && formData.profile_upload ) {
+  if (formData.name || formData.email || formData.profile_upload) {
     progress = 66;
-    step = 2;
+    step = 3;
   }
 
   if (formSubmitted) {
@@ -31,7 +31,7 @@ const Progress = () => {
   return (
     <div className="progress">
       <div className="progress-container">
-        <h2>{progressTitles[step]}</h2> 
+        <h2>{progressTitles[step]}</h2>
         <small>Step {step} / 3</small>
       </div>
       <div className="progress-bar">

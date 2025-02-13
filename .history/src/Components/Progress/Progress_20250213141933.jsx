@@ -12,7 +12,7 @@ const Progress = () => {
     step = 1;
   }
 
-  if (formData.name && formData.email && formData.profile_upload ) {
+  if (formData.name && formData.email && formData.profile_upload) {
     progress = 66;
     step = 2;
   }
@@ -22,6 +22,7 @@ const Progress = () => {
     step = 3;
   }
 
+  // Define progress step titles
   const progressTitles = {
     1: "Ticket Selection",
     2: "Attendee Details",
@@ -31,7 +32,7 @@ const Progress = () => {
   return (
     <div className="progress">
       <div className="progress-container">
-        <h2>{progressTitles[step]}</h2> 
+        <h2>{progressTitles[step]}</h2> {/* Dynamic title */}
         <small>Step {step} / 3</small>
       </div>
       <div className="progress-bar">

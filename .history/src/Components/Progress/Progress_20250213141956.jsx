@@ -12,7 +12,7 @@ const Progress = () => {
     step = 1;
   }
 
-  if (formData.name && formData.email && formData.profile_upload ) {
+  if (formData.name && formData.email && formData.profile_upload) {
     progress = 66;
     step = 2;
   }

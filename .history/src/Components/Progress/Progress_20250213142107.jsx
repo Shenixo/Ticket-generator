@@ -2,7 +2,7 @@ import { useTicketContext } from "../../Context/TicketContext";
 import "./Progress.css";
 
 const Progress = () => {
-  const { activeTab, formData, formSubmitted } = useTicketContext();
+  const { activeTab, formData, formSubmitted, toProceed } = useTicketContext();
 
   let progress = 0;
   let step = 1;
@@ -12,7 +12,7 @@ const Progress = () => {
     step = 1;
   }
 
-  if (formData.name && formData.email && formData.profile_upload ) {
+  if (formData.name && formData.email && formData.profile_upload && toProceed) {
     progress = 66;
     step = 2;
   }
