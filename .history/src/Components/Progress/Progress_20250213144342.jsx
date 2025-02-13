@@ -1,10 +1,9 @@
-import { useLocation } from "react-router-dom";
-import { useTicketContext } from "../../Context/TicketContext";
+import {useTicketContext} from "../../Context/TicketContext"
 import "./Progress.css";
 
-const Progress = ({ value }) => {
+
+const Progress = () => {
   const { activeTab, formData, formSubmitted } = useTicketContext();
-  const location = useLocation();
 
   let progress = 0;
 
@@ -20,13 +19,10 @@ const Progress = ({ value }) => {
     progress = 100;
   }
 
-  const progressTitle =
-    location.pathname === "/my_tickets" ? "Ready" : value;
-
   return (
     <div className="progress">
       <div className="progress-container">
-        <h2>{progressTitle}</h2>
+        <h2>Ticket Progress</h2>
         <small>
           Step {progress === 33 ? "1" : progress === 66 ? "2" : "3"} / 3
         </small>

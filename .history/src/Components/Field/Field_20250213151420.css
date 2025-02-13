@@ -159,7 +159,7 @@ input:focus, select:focus {
     border-color: rgba(255, 255, 255, 0.8);
   }
   .image-upload-label img{
-    transition: all 0.3s ease-in-out;
+    
   }
   .image-upload-label:hover img {
     transform: scale(1.1);

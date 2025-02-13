@@ -91,13 +91,10 @@
   margin-top: 1rem;
   border: 3px solid #5affff;
   border-radius: 0.5rem;
-  object-fit: cover !important;
-  object-position: center !important;
-}
-/* .profile-upload{
   object-fit: contain !important;
   object-position: center !important;
-} */
+}
+
 
 .button-container-ticket{
   margin-top: 3.5rem;

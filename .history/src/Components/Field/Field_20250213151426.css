@@ -160,6 +160,7 @@ input:focus, select:focus {
   }
   .image-upload-label img{
     transition: all 0.3s ease-in-out;
+    
   }
   .image-upload-label:hover img {
     transform: scale(1.1);

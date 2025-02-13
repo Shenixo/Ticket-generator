@@ -18,7 +18,7 @@ const Events = () => {
     <div className="events">
       {/* {openModal && <Modal />} */}
       <Card className="outer-card" background="#041e23">
-        <Progress value={toProceed ? "Attendee Details" : "Ticket Selection"} />
+        <Progress value={toProceed ? "Attendee Details"} />
         <Card className="big-card">
           <Card
             className={`ticket-selection-card ${toProceed ? "left" : null}`}

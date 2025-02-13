@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { useTicketContext } from "../../Context/TicketContext";
 import "./Progress.css";
 
-const Progress = ({ value }) => {
+const Progress = ({ title }) => {
   const { activeTab, formData, formSubmitted } = useTicketContext();
   const location = useLocation();
 
@@ -20,8 +20,15 @@ const Progress = ({ value }) => {
     progress = 100;
   }
 
-  const progressTitle =
-    location.pathname === "/my_tickets" ? "Ready" : value;
+  let progressTitle = title;
+
+  if (!title) {
+    progressTitle = location.pathname === "/my_tickets"
+      ? "Ready"
+      : formData.toProceed
+      ? "Attendee Details"
+      : "Ticket Selection";
+  }
 
   return (
     <div className="progress">

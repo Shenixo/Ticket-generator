@@ -125,6 +125,7 @@ input:focus, select:focus {
     height: 9.5rem;
     margin-top: 1.8rem;
     margin-bottom: .8rem;
+    overflow: hidden;
   }
   .image-upload{
     width: 11rem !important;
@@ -158,14 +159,6 @@ input:focus, select:focus {
   .image-upload-label:hover {
     border-color: rgba(255, 255, 255, 0.8);
   }
-  .image-upload-label img{
-    transition: all 0.3s ease-in-out;
-  }
-  .image-upload-label:hover img {
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
-  }
-  
   .upload-box {
     position: absolute;
     bottom: -100%; 
@@ -176,10 +169,11 @@ input:focus, select:focus {
     align-items: center;
     gap: 10px;
     padding: 1rem;
-    background: rgba(0, 0, 0, 0.6); 
+    background: rgba(0, 0, 0, 0.6);
     border-radius: 0.5rem;
     transition: bottom 0.5s ease-in-out, opacity 0.5s ease-in-out;
     opacity: 0;
+
   }
   .image-upload-container:hover .upload-box {
     bottom: 50%; 
