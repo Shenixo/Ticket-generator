@@ -8,7 +8,7 @@ const BarcodeGenerator = () => {
 
   useEffect(() => {
     if (formData.number_of_tickets) { 
-      JsBarcode(barcodeRef.current, formData.number_of_tickets * 200441122122, {
+      JsBarcode(barcodeRef.current, formData.number_of_tickets * 200441122124, {
         format: 'CODE128', 
         lineColor: '#000000',
         width: 2,
