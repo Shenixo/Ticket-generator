@@ -16,7 +16,7 @@
 
 .ticket {
   min-width: 310px;
-  max-width: 310px;
+  min-width: 310px;
   /* height: 500px; */
 
   border: 1px solid #16dcff;

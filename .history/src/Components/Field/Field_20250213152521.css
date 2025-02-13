@@ -182,10 +182,10 @@ input:focus, select:focus {
     transition: bottom 0.5s ease-in-out, opacity 0.5s ease-in-out;
     opacity: 0; */
   }
-  /* .image-upload-container:hover .upload-box {
+  .image-upload-container:hover .upload-box {
     bottom: 50%; 
     opacity: 1;
-  } */
+  }
   .upload-box p {
     color: white;
     font-size: .8rem !important;
