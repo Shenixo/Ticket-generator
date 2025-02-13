@@ -15,7 +15,7 @@
 }
 
 .ticket {
-  width: 310px;
+  width: 300px;
   /* height: 500px; */
 
   border: 1px solid #16dcff;
@@ -31,7 +31,7 @@
 }
 /* 24A0B5 */
 .second-ticket {
-  width: 310px;
+  width: 300px;
   height: 112px;
   border-top: 1px dashed #16dcff;
   border-bottom: 1px solid #16dcff;
