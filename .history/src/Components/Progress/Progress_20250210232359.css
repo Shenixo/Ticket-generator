@@ -1,0 +1,7 @@
+.progress{
+    /* border-radius: 1rem; */
+}
+.progress span{
+    width: 100%;
+    height: 2px;
+}

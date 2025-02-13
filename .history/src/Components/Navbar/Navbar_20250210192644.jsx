@@ -1,0 +1,39 @@
+import "./Navbar.css";
+import Company_logo from "../../assets/Ticket-site-logo.svg";
+import Button from "../Button/Button";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import { useState } from "react";
+
+const menuList = ["Events", "My Tickets", "About Project"];
+
+const Navbar = () => {
+  const [activeNav, setActiveNav] = useState(menuList[0]); // Default active
+
+  const handleNavList = (navItem) => {
+    setActiveNav(navItem); // Update active item
+  };
+
+  return (
+    <nav>
+      <div>
+        <img src={Company_logo} alt="Company's logo" />
+      </div>
+      <ul className="nav-list">
+        {menuList.map((list) => (
+          <li
+            key={list}
+            onClick={() => handleNavList(list)}
+            className={activeNav === list ? "active" : ""} // Add "active" class
+          >
+            {list}
+          </li>
+        ))}
+      </ul>
+      <Button>
+        My Tickets <ArrowForwardIcon fontSize="10" />
+      </Button>
+    </nav>
+  );
+};
+
+export default Navbar;

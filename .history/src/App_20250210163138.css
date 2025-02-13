@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Bogue';
+  src: url('./assets/Bogue-Serif-Font-Family/Demo_Fonts/Fontspring-DEMO-bogue-thin.otf') format('opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Bogue', sans-serif;
+}

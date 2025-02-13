@@ -1,0 +1,46 @@
+.events{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin: auto;
+}
+.ticket-selection-card{
+    text-align: center;
+    color: white;
+}
+.ticket-selection-card h1{
+    font-family: "Road Rage", serif;
+    font-size: 4rem;
+}
+.ticket-selection-card p{
+    width: 80%;
+    margin: auto;
+    margin-top: 1.2rem;
+    margin-bottom: 2.2rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.ticket-selection-card span{
+    line-height: 1.5rem;
+}
+.loc-nd-time{
+    display: flex;
+    align-items: center; 
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    gap: .5rem;
+    height: 1.4rem;
+    overflow: hidden;
+}
+.loc-nd-time span:first-child{
+    border-right: 1px solid white;
+    padding: .5rem;
+}
+.loc-nd-time div{
+    border-left: 1px solid white;
+    padding: .5rem;
+}
+/* #082228  #0d3942 */

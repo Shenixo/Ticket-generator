@@ -1,0 +1,15 @@
+.events{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    margin: auto;
+}
+.ticket-selection-card{
+    text-align: center;
+    color: white;
+}
+.ticket-selection-card h1{
+    font-family: "Road Rage", serif;
+}
+/* #082228  #0d3942 */

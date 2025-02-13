@@ -1,0 +1,14 @@
+.progress{
+    color: white;
+    font-family: "EB Garamond", serif;
+}
+.progress h2{
+    font-size: 1.6rem;
+    margin-bottom: .3rem;
+}
+
+.progress-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

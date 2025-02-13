@@ -1,0 +1,65 @@
+.field label{
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 1..06rem;
+    display: block;
+    margin-bottom: .4rem;
+}
+.field input, .field select{
+    padding: 1rem;
+    border:1px solid #197686;
+    background: transparent;
+    border-radius: .7rem;
+    width: 100%;
+    color: white;
+    outline: none;
+}
+.field{
+    margin-top: 1.5rem;
+}
+.field select option{
+    color: black;
+}
+input:focus, select:focus {
+    outline: none;
+    border: 2px solid #197686;
+    box-shadow: 0 0 2px #197686;
+  }
+  .select-ticket-type{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+
+  }
+  .select-ticket-type div{
+    /* min-width: 7rem; */
+  }
+  .ticket_type{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    font-family: "Roboto", serif;
+    gap: 10px;
+    justify-content: space-between;
+    padding: .6rem;
+  }
+  .ticket_type-inner{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+  .ticket_type-inner h3{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .ticket_type-inner p{
+    font-size: .9rem;
+  }
+  .price-card{
+    max-width: fit-content;
+    /* padding: .7rem; */
+    /* display: none; */
+  }

@@ -1,0 +1,11 @@
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+.button-container div{
+    width: 100%;
+    font-size: ;
+}

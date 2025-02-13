@@ -1,0 +1,22 @@
+.button{
+    outline: none;
+    padding: .7rem 1rem;
+    border: none;
+    transition: .5s;
+    border-radius: 5px;
+    font-family: "EB Garamond", serif ;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button:active{
+    scale: 1.1;
+    opacity: .95;
+}
+.button:active{
+    scale: .895;
+    opacity: .95;
+}

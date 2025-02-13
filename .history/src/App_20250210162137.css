@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Bogue';
+  src: url('/assets/fonts/Bogue-Serif-Font-Family') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Bogue', sans-serif;
+}

@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  box-sizing: border-box;
+
+  font-family: "EB Garamond", serif;
+  font-family: "Lato", serif;
+  font-family: "Road Rage", serif;
+  font-family: "Manrope", serif;
+}
+body {
+  background: radial-gradient(
+    circle at bottom,
+    #24A0B5 20%,
+    #02191d 100%,
+    #041e23 100%
+  );
+
+  min-height: 100vh;
+}

@@ -1,0 +1,82 @@
+.field label{
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 1..06rem;
+    display: block;
+    margin-bottom: .4rem;
+}
+.field input, .field select{
+    padding: 1rem;
+    border:1px solid #197686;
+    background: transparent;
+    border-radius: .7rem;
+    width: 100%;
+    color: white;
+    outline: none;
+}
+.field{
+    margin-top: 1.5rem;
+}
+.field select option{
+    color: black;
+}
+input:focus, select:focus {
+    outline: none;
+    border: 2px solid #197686;
+    box-shadow: 0 0 2px #197686;
+  }
+  .select-ticket-type{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 1rem;
+    border-radius: 5px;
+
+  }
+  .select-ticket-type div{
+    /* min-width: 7rem; */
+  }
+  .ticket_type{
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    font-family: "Roboto", serif;
+    justify-content: space-between;
+    padding: .6rem;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 5.2rem !important;
+    transition: .5s;
+  }
+  .ticket_type:active{
+    scale: .889;
+  }
+  .ticket_type-inner{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .ticket_type-inner h3{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .ticket_type-inner p{
+    font-size: .9rem;
+  }
+  .price-card{
+    padding: .6rem;
+    background: #0E464F;
+    text-transform: capitalize;
+    max-width: 80px;
+    text-align: right;
+    border-radius: 5px;
+    transition: .3s;
+  }
+  .active_tab{
+    background: #197686;
+    background: rgba(248, 248, 248, 0.1);
+  }
+  .active_tab_price{
+    box-shadow: 0 0 4px #197686;
+  }

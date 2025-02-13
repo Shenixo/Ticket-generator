@@ -1,0 +1,26 @@
+.button{
+    outline: none;
+    padding: .7rem 1rem;
+    border: none;
+    transition: .5s;
+    border-radius: 5px;
+    font-family: "EB Garamond", serif ;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+
+}
+.button:hover{
+    scale: 1.05;
+    opacity: .95;
+    box-shadow: 0px 0px 15px rgba(0, 150, 255, 0.6);
+}
+.button:active{
+    scale: .895;
+    opacity: .95;
+}

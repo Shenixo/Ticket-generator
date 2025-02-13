@@ -1,0 +1,9 @@
+.ticket-info{
+   background: #08343c;
+   border-radius: .5rem;
+   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+   padding: .1rem;
+}
+.ticket-info-first{
+    display: grid;
+}

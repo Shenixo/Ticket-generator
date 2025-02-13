@@ -1,0 +1,22 @@
+nav{
+    padding: .7rem;
+    border-radius: 1rem;
+    width: 70%;
+    margin: 1rem auto;
+    border:1px solid #197686;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #B3B3B3;
+    font-size: 1.05rem;
+    list-style: none;
+    font-family: "EB Garamond", serif ;
+}
+.nav-list li{
+    cursor: pointer;
+}

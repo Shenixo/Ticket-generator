@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: url("../src/assets/Background.svg"); */
+  width: 100%;
+  height: 100svh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "EB Garamond", serif;
+  background: #02191d;
+  background: linear-gradient( , #082228 50%, #0d3942 100%);
+  /* background: radial-gradient(#02191d 100%, #09333b 20%); */
+}
+#line{
+  width: 100%;
+  border: none;
+  height: 3px;
+  background: #09515e;
+  margin: 1.7rem 0;
+}

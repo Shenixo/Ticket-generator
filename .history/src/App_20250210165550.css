@@ -1,0 +1,10 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  box-sizing: border-box;
+
+  font-family: "EB Garamond", serif;
+  /* font-family: "Lato", serif;
+  font-family: "Road Rage", serif; */
+}

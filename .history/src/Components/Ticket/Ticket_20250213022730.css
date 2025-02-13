@@ -1,0 +1,104 @@
+.ticket-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #041e23;
+  margin-top: 2rem;
+}
+.ticket-card {
+  width: 90%;
+  height: 92%;
+  margin: 1rem auto;
+  background: linear-gradient(-135deg, #082228 45%, #0d3942 100%);
+  padding: 1.7rem 1rem 1rem;
+}
+
+.ticket {
+  width: 300px;
+  /* height: 500px; */
+
+  border: 1px solid #16dcff;
+  background: #041e23;
+  background: linear-gradient(#0d3942 0%, #082228 100%);
+  /* background:linear-gradient(-5deg, #082228 45%, #0d3942 100%); */
+  position: relative;
+  border-bottom: none;
+  border-radius: 1.85rem;
+  border: none;
+  box-shadow: 0px 1px 3px #16dcff;
+  overflow: hidden;
+  border-right-color: transparent;
+  border-top-width: 0;
+  border
+}
+/* 24A0B5 */
+.second-ticket {
+  width: 300px;
+  height: 112px;
+  border-top: 1px dashed #16dcff;
+  border-bottom: 1px solid #16dcff;
+  border: none;
+}
+
+.corner {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  background-color: #041e23;
+  border-radius: 50%;
+  /* border: 1px solid #16dcff; */
+  box-shadow: 0 1px 5px #16dcff;
+  border-top: none;
+}
+
+.corner-top-left {
+  top: -20px;
+  left: -20px;
+}
+.corner-top-right {
+  top: -20px;
+  right: -20px;
+}
+
+.corner-bottom-left {
+  bottom: -20px;
+  left: -20px;
+}
+
+.corner-bottom-right {
+  bottom: -20px;
+  right: -20px;
+}
+.ticket-card h1 {
+  font-family: "Road Rage", serif;
+  font-size: 1.7rem !important;
+  color: rgb(211, 211, 211);
+}
+.ticket-card-inner {
+  font-size: 14px;
+  color: white;
+  font-family: "Roboto", serif;
+  text-align: center;
+}
+.loc {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+.image-preview-ticket {
+  width: 90%;
+  max-width: 140px;
+  height: 140px;
+  margin-top: 1rem;
+  border: 3px solid #5affff;
+  border-radius: 0.5rem;
+}
+@media only screen and (max-width: 400px){
+  .tickets-container h1{
+    font-size: 1.8rem;
+  }
+  .ticket{
+    width: 270px;
+  }
+}

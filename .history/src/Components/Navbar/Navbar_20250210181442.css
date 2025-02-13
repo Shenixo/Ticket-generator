@@ -1,0 +1,15 @@
+nav{
+    padding: .7rem;
+    border-radius: 1rem;
+    width: 70%;
+    margin: 1rem auto;
+    border:1px solid #197686;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

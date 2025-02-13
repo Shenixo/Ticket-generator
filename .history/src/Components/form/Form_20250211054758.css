@@ -1,0 +1,19 @@
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    /* border: none; */
+    padding: 0;
+    padding: 1rem;
+    /* padding-inline: 2rem; */
+    border-radius: 2rem;
+    background: #ffffff1a;
+    background:linear-gradient(-42deg, #082228 45%, #0d3942 100%)"
+}
+.button-container div{
+    width: 70%;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+}

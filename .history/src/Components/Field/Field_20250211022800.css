@@ -1,0 +1,19 @@
+.field label{
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 1..06rem;
+    display: block;
+    margin-bottom: .4rem;
+}
+.field input, .field select{
+    padding: 1rem;
+    border:1px solid #197686;
+    background: transparent;
+    border-radius: .7rem;
+    width: 100%;
+    color: white;
+}
+.field{
+    margin-top: 2rem;
+
+}

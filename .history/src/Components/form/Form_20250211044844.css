@@ -1,0 +1,9 @@
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border
+}
+.button-container div{
+    width: 100%;
+}

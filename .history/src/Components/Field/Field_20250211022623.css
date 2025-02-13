@@ -1,0 +1,11 @@
+.field label{
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 1..06rem;
+    display: block;
+    margin-bottom: .4rem;
+}
+.field input{
+    padding: 1rem;
+    border:1px solid #197686;
+}

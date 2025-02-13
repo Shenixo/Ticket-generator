@@ -1,0 +1,36 @@
+.tickets-container {
+  width: 35%;
+  margin: auto;
+  padding-bottom: 3rem;
+  background-color: re;
+}
+.tickets-container h1 {
+  font-family: "Alatsi", serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.tickets-container .title {
+  color: white;
+  text-align: center;
+}
+.tickets-container .title p {
+  font-family: "Alatsi", serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 200;
+}
+@media only screen and (max-width: 1500px) {
+  .tickets-container {
+    min-width: 520px;
+  }
+}
+@media only screen and (max-width: 750px){
+  .tickets-container {
+    min-width: 90%;
+  }
+}
+@media only screen and (max-width: 400px){
+  .tickets-container h1{
+    font-size: 1.8rem;
+  }
+}

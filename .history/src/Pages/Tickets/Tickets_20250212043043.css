@@ -1,0 +1,19 @@
+.tickets-container{
+    width: 35%;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+.tickets-container h1{
+    font-family: "Alatsi", serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.tickets-container .title{
+    color: white;
+    text-align: center;
+
+}
+.tickets-container .title p{
+    font-family: "Alatsi", serif;
+font-size: 1rem;
+}

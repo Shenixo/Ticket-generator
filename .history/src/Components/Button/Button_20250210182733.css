@@ -1,0 +1,15 @@
+.button{
+    outline: none;
+    padding: .7rem 1rem;
+    border: none;
+    transition: all .5s;
+    border-radius: .8rem;
+    font-family: "EB Garamond", serif ;
+    font-size: 1rem;
+}
+.button:hover{
+    opacity: .7;
+}
+.button:active{
+    scale: .8;
+}

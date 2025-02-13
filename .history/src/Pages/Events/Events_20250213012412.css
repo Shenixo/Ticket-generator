@@ -1,0 +1,78 @@
+.events {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+.ticket-selection-card {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", serif;
+}
+.ticket-selection-card h1 {
+  font-family: "Road Rage", serif;
+  font-size: 4rem;
+  color: aliceblue;
+  color: rgb(211, 211, 211);
+}
+.outer-card{
+    padding: 2rem;
+}
+.left {
+    text-align: left;
+}
+.ticket-selection-card p {
+  width: 80%;
+  margin: auto;
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.ticket-selection-card span {
+  line-height: 1.5rem;
+}
+.loc-nd-time {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+  height: 1.2rem;
+  overflow: hidden;
+}
+.loc-nd-time div:first-child {
+  border-right: 1px solid white;
+  padding-right: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.loc-nd-time div:last-child {
+  border-left: 1px solid white;
+  padding-left: 1.2rem;
+  height: 100%;
+}
+.big-card {
+  padding: 1.5rem;
+}
+@media only screen and (max-width: 1500px) {
+  .events {
+    min-width: 520px;
+  }
+}
+@media only screen and (max-width: 750px){
+  .events {
+    min-width: 70%;
+  }
+  .outer-card{
+    padding: 2rem;
+}
+  
+}
+

@@ -1,0 +1,6 @@
+.ticket-div{
+    background: url("../../assets/ticket.svg");
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
+}

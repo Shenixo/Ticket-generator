@@ -1,0 +1,13 @@
+.button{
+    outline: none;
+    padding: 1rem;
+    border: none;
+    transition: all .5s;
+    border-radius: ;
+}
+.button:hover{
+    opacity: .7;
+}
+.button:active{
+    scale: .8;
+}

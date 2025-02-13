@@ -1,0 +1,25 @@
+nav{
+    padding: .7rem;
+    border-radius: 10px;
+    width: 70%;
+    margin: 1rem auto;
+    border:1px solid #197686;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+background: #0E464F;
+bacdr
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #B3B3B3;
+    font-size: 1.2rem;
+    list-style: none;
+    font-family: "EB Garamond", serif ;
+}
+.nav-list li{
+    cursor: pointer;
+}

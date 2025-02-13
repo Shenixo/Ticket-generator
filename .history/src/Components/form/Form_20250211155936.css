@@ -1,0 +1,17 @@
+.button-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    border: none;
+    padding: 0;
+    
+  
+    /* background:linear-gradient(-42deg, #082228 45%, #0d3942 100%); */
+}
+.button-container button{
+    width: 100%;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
