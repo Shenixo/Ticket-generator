@@ -160,6 +160,5 @@
     .payment-options{
         flex-direction: column;
         gap: 1rem;
-        margin-bottom: -2.5rem;
     }
 }
